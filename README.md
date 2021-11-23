@@ -1,5 +1,6 @@
 # uplifiting-quote-action
 Comments an uplifting quote every time you comment on a PR or an issue.
+![GithubQuoteComment](https://user-images.githubusercontent.com/49329642/143082662-e8fc29ef-54a2-4edf-a7b2-19f53632b4b0.png)
 
 ## Inputs
 
