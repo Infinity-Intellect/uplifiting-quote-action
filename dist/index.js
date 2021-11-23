@@ -8468,7 +8468,7 @@ const main = async() => {
             console.log(formattedQuote)
 
             try {
-                const commentMessage = `@${actor} ${commentStarter}\nHere's an uplifting quote for the day: \n${formattedQuote}`
+                const commentMessage = `@${actor} ${commentStarter}\n**Here's an uplifting quote from us:** \n${formattedQuote}`
                 const createCommentResponse = await octokit.rest.issues.createComment({
                     ...context.repo,
                     issue_number: context.issue.number,
