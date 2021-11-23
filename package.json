@@ -1,0 +1,24 @@
+{
+  "name": "uplifiting-quote-action",
+  "version": "1.0.0",
+  "description": "Comments an uplifting quote every time you comment on a PR or an issue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infinity-Intellect/uplifiting-quote-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Infinity-Intellect/uplifiting-quote-action/issues"
+  },
+  "homepage": "https://github.com/Infinity-Intellect/uplifiting-quote-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}

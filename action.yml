@@ -1,0 +1,13 @@
+name: 'Uplifiting Quotes'
+description: 'Speak to us and get uplifted'
+inputs:
+  github_token:
+    description: A GitHub token
+    required: true
+  comment_starter:
+    description: 'Any custom string appended to the beginning of the comment'
+    required: false
+    default: 'Thank you for your contribution !'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
